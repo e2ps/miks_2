@@ -1,0 +1,18 @@
+ <div class="container p-3">
+            <a class="navbar-brand" href="#">MIK'S</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+</div>
+id="navbarSupportedContent"
+data-bs-theme="dark"
+
+
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none ">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">Sidebar</span>
+              </a>
+              <hr>
+
+   <?= $carousel[0][1]?>
+   <?= $carousel[0][2]?>
